@@ -1,0 +1,81 @@
+.page-header {
+    background-color: #4C81C9;
+    margin-top: 0;
+    padding: 20px 10px 20px 10px;
+
+}
+
+.page-header h1, .page-header h1 a, .page-header h1 a:visited, .page-header h1 a:active {
+    color: white;
+    font-size: 24pt;
+    text-decoration: none;
+}
+
+.category-details h1 {
+    background-color: #4C81C9;
+    border-width: thin;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 40px;
+    height: 40px;
+    color: white;
+    font-size: 16pt;
+}
+
+.post {
+    margin-bottom: 70px;
+}
+
+
+.post h1, .post h1 a, .post h1 a:visited, .post h1 a:active {
+    color: #4C81C9;
+    font-size: 20pt;
+    text-decoration: none;
+}
+
+.content {
+    margin-left: 40px;
+}
+
+.date {
+    color: #828282;
+}
+/*
+to top button
+ */
+
+#to-top-button {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: #4C81C9; /* Set a background color */
+    color: white; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 15px; /* Some padding */
+    border-radius: 10px; /* Rounded corners */
+}
+
+#to-top-button:hover {
+    background-color: #555; /* Add a dark-grey background on hover */
+}
+
+/*
+search things
+ */
+
+
+/*
+about me page
+ */
+.about-content {
+    text-align: center;
+    vertical-align: middle;
+    line-height: 80px;
+    height: 80px;
+    font-size: 16pt;
+
+}
